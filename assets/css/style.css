@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* the background color of site behind all elements */
 body {
     background-color: #d9dcd6;
 }
 
+/* navigation bar css */
 nav {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +43,18 @@ nav div ul li {
     margin-left: 25px;
 }
 
+/* for the links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* for the paragraph text */
 p {
     font-size: 16px;
 }
 
+/* header stylings */
 header {
     height: 800px;
     width: 100%;
@@ -59,22 +64,26 @@ header {
     background-position: center;
 }
 
+/* to make the cards go left  */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* to make the cards go right  */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* for the article  */
 article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* stylings for the aside section of the page  */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -122,6 +131,7 @@ aside {
     max-width: 150px;
 }
 
+/* for the footer stylings  */
 footer {
     padding: 30px;
     clear: both;
